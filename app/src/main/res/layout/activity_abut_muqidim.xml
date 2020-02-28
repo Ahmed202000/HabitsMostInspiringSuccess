@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004b6a"
+    android:orientation="vertical"
+    android:layoutDirection="rtl">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:text="المحاضر بسام مقيدم "
+                    android:textColor="#fff"
+                    android:fontFamily="@font/cairo"
+                    android:textSize="@dimen/_25sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+<!--                <TextView-->
+<!--                    android:layout_width="@dimen/_116sdp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="@dimen/_20sdp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:fontFamily="@font/extra_light"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text=" عش كل لحظة كانها اخر لحظة...عش بالايمان...عش بالامل...عش بالحب...عش بالكفاح وقدر قيمة الحياة "-->
+<!--                    android:textColor="#fff" />-->
+
+                <ImageView
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_200sdp"
+                    android:src="@drawable/logo_mm" />
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_marginLeft="@dimen/_5sdp"-->
+<!--                android:layout_marginRight="@dimen/_5sdp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <TableLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content">-->
+
+<!--                    <TableRow>-->
+<!--                        <TextView-->
+<!--                            android:padding="@dimen/_5sdp"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:background="@drawable/ba_shape"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="الاسم"-->
+<!--                            android:fontFamily="@font/extra_light"-->
+<!--                            android:textSize="@dimen/_15sdp"-->
+<!--                            android:textColor="#fff" />-->
+
+<!--                        <TextView-->
+<!--                            android:background="@drawable/ba_shape"-->
+<!--                            android:gravity="right"-->
+<!--                            android:layout_width="@dimen/_240sdp"-->
+<!--                            android:padding="@dimen/_5sdp"-->
+<!--                            android:fontFamily="@font/extra_light"-->
+<!--                            android:text="إبراهيم محمد السيد الفقي"-->
+<!--                            android:textColor="#fff"-->
+<!--                            android:textSize="@dimen/_15sdp" />-->
+
+
+<!--                    </TableRow>-->
+<!--                    <TableRow>-->
+
+<!--                        <TextView-->
+<!--                            android:padding="@dimen/_5sdp"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:background="@drawable/ba_shape"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="المواليد"-->
+<!--                            android:fontFamily="@font/extra_light"-->
+<!--                            android:textSize="@dimen/_15sdp"-->
+<!--                            android:textColor="#fff" />-->
+
+<!--                        <TextView-->
+<!--                            android:background="@drawable/ba_shape"-->
+<!--                            android:fontFamily="@font/extra_light"-->
+<!--                            android:gravity="right"-->
+<!--                            android:padding="@dimen/_5sdp"-->
+<!--                            android:text="5 - 8 - 1950م في الجيزة"-->
+<!--                            android:textColor="#fff"-->
+<!--                            android:textSize="@dimen/_15sdp" />-->
+
+
+<!--                    </TableRow>-->
+<!--                    <TableRow>-->
+
+
+<!--                        <TextView-->
+<!--                            android:padding="@dimen/_5sdp"-->
+<!--                            android:background="@drawable/ba_shape"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="الوفاة"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:fontFamily="@font/extra_light"-->
+<!--                            android:textSize="@dimen/_15sdp"-->
+<!--                            android:textColor="#fff" />-->
+
+<!--                        <TextView-->
+<!--                            android:padding="@dimen/_5sdp"-->
+<!--                            android:background="@drawable/ba_shape"-->
+<!--                            android:gravity="right"-->
+<!--                            android:fontFamily="@font/extra_light"-->
+<!--                            android:text="10-2-2012 م في القاهرة"-->
+<!--                            android:textColor="#fff"-->
+<!--                            android:textSize="@dimen/_15sdp" />-->
+
+
+<!--                    </TableRow>-->
+<!--                    <TableRow>-->
+
+<!--                        <TextView-->
+<!--                            android:padding="@dimen/_5sdp"-->
+<!--                            android:background="@drawable/ba_shape"-->
+<!--                            android:gravity="center"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:text="الجنسية"-->
+<!--                            android:fontFamily="@font/extra_light"-->
+<!--                            android:textSize="@dimen/_15sdp"-->
+<!--                            android:textColor="#fff" />-->
+
+<!--                        <TextView-->
+<!--                            android:padding="@dimen/_5sdp"-->
+<!--                            android:background="@drawable/ba_shape"-->
+<!--                            android:gravity="right"-->
+<!--                            android:text="مصري"-->
+<!--                            android:fontFamily="@font/extra_light"-->
+<!--                            android:textColor="#fff"-->
+<!--                            android:textSize="@dimen/_15sdp" />-->
+
+
+<!--                    </TableRow>-->
+<!--                    <TableRow>-->
+
+<!--                        <TextView-->
+<!--                            android:padding="@dimen/_5sdp"-->
+<!--                            android:background="@drawable/ba_shape"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="العمل"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:textSize="@dimen/_15sdp"-->
+<!--                            android:fontFamily="@font/extra_light"-->
+<!--                            android:textColor="#fff" />-->
+
+<!--                        <TextView-->
+<!--                            android:padding="@dimen/_5sdp"-->
+<!--                            android:background="@drawable/ba_shape"-->
+<!--                            android:gravity="right"-->
+<!--                            android:text="مدرب , ومستشار , ومؤلف"-->
+<!--                            android:textColor="#fff"-->
+<!--                            android:fontFamily="@font/extra_light"-->
+<!--                            android:textSize="@dimen/_15sdp" />-->
+
+
+<!--                    </TableRow>-->
+<!--                    <TableRow>-->
+
+<!--                        <TextView-->
+<!--                            android:padding="@dimen/_5sdp"-->
+<!--                            android:background="@drawable/ba_shape"-->
+<!--                            android:gravity="center"-->
+<!--                            android:text="اولاده"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:textSize="@dimen/_15sdp"-->
+<!--                            android:fontFamily="@font/extra_light"-->
+<!--                            android:textColor="#fff" />-->
+
+<!--                        <TextView-->
+<!--                            android:padding="@dimen/_5sdp"-->
+<!--                            android:background="@drawable/ba_shape"-->
+<!--                            android:gravity="right"-->
+<!--                            android:text="نانسي و نرمين"-->
+<!--                            android:fontFamily="@font/extra_light"-->
+<!--                            android:textColor="#fff"-->
+<!--                            android:textSize="@dimen/_15sdp" />-->
+
+
+<!--                    </TableRow>-->
+<!--                    <TableRow>-->
+
+<!--                        <TextView-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:background="@drawable/ba_shape"-->
+<!--                            android:fontFamily="@font/extra_light"-->
+<!--                            android:gravity="center"-->
+<!--                            android:padding="@dimen/_5sdp"-->
+<!--                            android:text="خبير التنميه البشرية والبرمجة اللغوية والعصبية ورئيس مجلس ادارة المركز الكندي للتنمية البشرية ومؤسس ورئيس مجلس إدارة وجموعة شركات إبراهيم الفقي العالمية , واضع نظرية ديناميكية التكيف العصبي ونظرية قوة الطاقة البشرية يحكي الفقي في محاضراته انه سافر إلي كندا مع زوجته وهو لايمتلك شياً وعمل في اقل الوظائف في فندق بالرغم من نجاحه في الفندق قبل سفره إلي كندا , قم تدرج في وقت قصيرجداً الي ان اصبح مدير اكبر الفنادق في كندا . وحصل علي الكثير من الشهادات الدوليةوشهادة دكتوراة في علم التنمية  البشرية , ويقل غبراهيم الفقي في إبراهيم الفقي في موقعه الشخصي انه قام بتاليف علمين جديدين مسجلين باسمه وهما : علم قوة الطاقة البشرية وعلم ديناميكية التكيف العصبي , درب الفقي اكثر من 600الف شخص في محاضراته حول العالم , كما انه حاضر ودرب بثلاث لغات : انجليزية والفرنسية والعربية"-->
+<!--                            android:textColor="#fff"-->
+<!--                            android:textSize="@dimen/_15sdp" />-->
+
+<!--                    </TableRow>-->
+
+
+<!--                </TableLayout>-->
+
+<!--            </LinearLayout>-->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

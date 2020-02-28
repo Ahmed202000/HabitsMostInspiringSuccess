@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layoutDirection="rtl">
+
+
+    <LinearLayout
+        android:background="#004b6a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="@dimen/_15sdp"
+            android:src="@drawable/abboudi96_04"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_20sdp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_weight="10"
+        android:gravity="right|center"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="العنوان"
+            android:id="@+id/titleid"
+            android:textSize="@dimen/_14sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/extra_light"/>
+
+
+        <TextView
+            android:text="الفصل"
+            android:id="@+id/partid"
+            android:textSize="@dimen/_8sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_margin="@dimen/_10sdp"
+            android:src="@drawable/shm"
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_20sdp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
